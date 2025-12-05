@@ -1,0 +1,139 @@
+.body{
+    background-color: #ffffff;
+    margin: 100px;
+
+}
+
+
+footer{
+    background-color: rgb(244, 206, 110);
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border-top: 2px solid black;
+}
+
+a.list {
+  text-decoration: none; /* fjerner understregning */
+  color: inherit;        /* bruger samme farve som teksten omkring */
+}
+
+.box{
+    font-size: 20px;
+    background-color: rgb(244, 206, 110);
+    text-align: center;
+    border: 2px solid black;
+    margin: auto;
+    border-radius: 10px;
+
+
+    width: 600px;
+    
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19);
+    
+}
+.leftbox{
+    font-size: 20px;
+    background-color: rgb(244, 206, 110);
+    text-align: center;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+   
+    
+
+    height: 83px;
+
+    width: 100px;
+    
+
+    float: left;
+    
+}
+
+.myCheck{
+    width: 30px;
+    height: 30px;
+    margin: 20px;
+    
+}
+
+
+.rightbox{
+    font-size: 20px;
+    background-color:rgb(244, 206, 110);
+    text-align: center;
+    border-top: 2px solid black;
+   
+    
+    width: 600px;
+    
+    
+
+
+    
+}
+
+
+
+.add{
+    font-size: 20px;
+    background-color: rgb(162, 255, 159);
+    text-align: center;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 10px;
+    width: 100px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19);
+
+    position: relative;
+    right: 0px;
+    left: 630px;
+    
+}
+.add:hover {
+  background-color: #4c5257; /* Changes color when hovered */
+}
+
+.image{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+
+.delete{
+    font-size: 20px;
+    background-color: rgb(255, 168, 168);
+    text-align: center;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 10px;
+    width: 100px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19);
+    
+
+    position: relative;
+    right: 0px;
+    left: 600px;
+
+}
+.delete:hover {
+  background-color: #4c5257; /* Changes color when hovered */
+}
+
+
+.title{
+    text-align: center;
+    
+}
+
+.list{
+    text-align: center;
+    font-size: 30px;
+}
